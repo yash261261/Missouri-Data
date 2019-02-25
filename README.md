@@ -15,6 +15,7 @@ Run command python manage.py for db.sqlite3
 # Command for make migrations
 python manage.py makemigrations,
 python manage.py migrate
+python manage.py createsuperuser
 
 # Save csv file data to Django Database
 python savecsvdata.py 
