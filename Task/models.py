@@ -13,6 +13,8 @@ class MissouriData(models.Model):
     est_number = models.CharField(max_length=200,null=True)
     app_apr_code = models.CharField(max_length=100,null=True)
     date_lic = models.DateField(null=True)
+    
+# Validate rows
 
     def clean_fields(self, exclude=None):
         if not isinstance(self.est_name, str):
