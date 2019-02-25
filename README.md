@@ -1,6 +1,6 @@
 # Missouri-Data
 
-# Install Requirements.txt
+Install Requirements.txt
 
 # Command for make migrations
 python manage.py makemigrations
