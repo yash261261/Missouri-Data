@@ -1,2 +1,10 @@
-db.sqlite3
-/HealthApplication/settings.py
+### Django ###
+*.log
+*.pot
+*.pyc
+__pycache__/
+settings.py
+
+.env
+*.sqlite3
+.idea/
